@@ -38,3 +38,30 @@ h1{
     content: "";
   }
 
+.social-media{
+    display: flex;
+    justify-content: center;
+}
+.social-media-icon{
+    margin: 10px;
+    transform: scale(0.8);
+}
+.img__wrap{
+    margin: 10px;
+}
+.img__description{
+    visibility: hidden;
+}
+.img__wrap:hover .img__description{
+    visibility: visible;
+    color: #dce6ea ;
+}
+
+.img__wrap:hover .social-media-icon{
+    transform: scale(0.85);
+}
+.footer-text{
+    text-align: center;
+    color: #dce6ea;
+    font-size: 16px;
+}
