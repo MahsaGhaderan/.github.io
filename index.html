@@ -12,13 +12,6 @@
     <div id="header" class="dark-header">
         <nav class="nav">
             
-            <a class="nav-link header-navlink active" href="#">
-                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-person-lines-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" d="M1 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm7 1.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5zm-2-3a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5zm2 9a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5z"/>
-                </svg>
-                About me
-            </a>
-            
             <a class="nav-link header-navlink" href="#">
                 <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-mouse2" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd" d="M3 5.188C3 2.341 5.22 0 8 0s5 2.342 5 5.188v5.625C13 13.658 10.78 16 8 16s-5-2.342-5-5.188V5.189zm4.5-4.155C5.541 1.289 4 3.035 4 5.188V5.5h3.5V1.033zm1 0V5.5H12v-.313c0-2.152-1.541-3.898-3.5-4.154zM12 6.5H4v4.313C4 13.145 5.81 15 8 15s4-1.855 4-4.188V6.5z"/>
@@ -53,108 +46,110 @@
                 </svg>
                 LifeStyle
             </a>
-            
-            <a class="nav-link header-navlink" href="#">
-                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chat-square-text-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-2.5a1 1 0 0 0-.8.4l-1.9 2.533a1 1 0 0 1-1.6 0L5.3 12.4a1 1 0 0 0-.8-.4H2a2 2 0 0 1-2-2V2zm3.5 1a.5.5 0 0 0 0 1h9a.5.5 0 0 0 0-1h-9zm0 2.5a.5.5 0 0 0 0 1h9a.5.5 0 0 0 0-1h-9zm0 2.5a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1h-5z"/>
-                </svg>            
-                Content
-            </a>
-
         </nav>
     </div>
-
-    <div id="about" class="about">
-        <h1>About me</h1>
+   
+    <div class='main-body'>
         <div class="flex">
             <div class="about_pic">
                 <img src="./static/me.jpg" class="about_img">
+                <div class="social-media">
+                </div>
             </div>
-            <div class="about_text">
-                <p>
-                Hi, I'm Mahsa. I'm studying computer engineering for a bachelor's degree at Iran university of science and technology.
-                 I am interested in artificial intelligence, especially NLP-natural language processing.
-                </p>
+            <p class="flex-name">Mahsa Ghaderan</p>
+            <div class="img__wrap">
+                <img class="social-media-icon" src="./static/facebook1.png" alt="facebook">
+                <pre class="img__description">Facebook</pre>
+            </div>
+            <div class="img__wrap">
+                <img class="social-media-icon" src="./static/instagram1.png">
+                <pre class="img__description">Instagram</pre>
+            </div>
+            <div class="img__wrap">
+                <img class="social-media-icon" src="./static/whatsapp1.png">
+                <pre class="img__description">Whatsapp</pre>
+            </div>
+            <div class="img__wrap">
+                <img class="social-media-icon" src="./static/twitter1.png">
+                <pre class="img__description">Twitter</pre>
             </div>
         </div>
-    </div>
-
-    <div id="experiments" class="experiments">
-        <h1>Experiences</h1>
-        <div class="exp_content">
-            <div class="exp_obj">
-                <h4>Education</h4>
-                <hr>
-                <ul class='exp_li'>
-                    <li>B.Sc. in Computer Engineering-concentration on AI</li>
-                    <p>- Iran University of Science and Technology, Tehran, Iran<p>
-                    <p>- GPA(up to now) via 132 units: 3.7/4(18.35/20)<p>
-                    <li>Diploma in Mathematics and Physics Discipline</li>
-                    <p>- Farzanegan HighSchool, Tehran, Iran</p>
-                    <p>- Affiliated with the National Organization for Development of Exceptional Talents</p>
-
-                </ul>
+        
+        <div class='body-content'>
+            <div id="about" class="about">
+                <h1>About me</h1>
+                <div class="about_text">
+                    <p>Hi, I'm Mahsa. I'm studying computer engineering for a bachelor's degree at Iran university of science and technology.
+                    I am interested in artificial intelligence, especially NLP-natural language processing.
+                    </p>
+                </div>
             </div>
 
-            <div class="exp_obj">
-                <h4>Teaching Experiences</h4>
-                <hr>
-                <ul class='exp_li'>
-                    <li>System Analysis Mentor</li>
-                    <p>- Instructor: Dr. Mehrdad Ashtiani</P>
-                    <li>Programming Basics TA</li>
-                    <p>- Instructor Dr. Zeinab Movahhedi</p>
-                    <li>Data Structure</li>
-                    <p>- Instructor: Dr. Sauleh Eetemadi</p>
-                    <li>Algorithm</li>
-                    <p>- Instructor: Dr. Sauleh Eetemadi</p>
-                    <li>Artificial Intelligence</li>
-                    <p>- Instructors: Dr. Sauleh Eetemadi and Dr. mohammad taher pilehvar</p>
+            <div id="experiments" class="experiments">
+                <h1>Experiences</h1>
+                <div class="exp_content">
+                    <div class="exp_obj">
+                        <h4>Education</h4>
+                        <hr>
+                        <ul class='exp_li'>
+                            <li>B.Sc. in Computer Engineering-concentration on AI</li>
+                            <p>- Iran University of Science and Technology, Tehran, Iran<p>
+                            <p>- GPA(up to now) via 132 units: 3.7/4(18.35/20)<p>
+                            <li>Diploma in Mathematics and Physics Discipline</li>
+                            <p>- Farzanegan HighSchool, Tehran, Iran</p>
+                            <p>- Affiliated with the National Organization for Development of Exceptional Talents</p>
+
+                        </ul>
+                    </div>
+
+                    <div class="exp_obj">
+                        <h4>Teaching Experiences</h4>
+                        <hr>
+                        <ul class='exp_li'>
+                            <li>System Analysis Mentor</li>
+                            <p>- Instructor: Dr. Mehrdad Ashtiani</P>
+                            <li>Programming Basics TA</li>
+                            <p>- Instructor Dr. Zeinab Movahhedi</p>
+                            <li>Data Structure</li>
+                            <p>- Instructor: Dr. Sauleh Eetemadi</p>
+                            <li>Algorithm</li>
+                            <p>- Instructor: Dr. Sauleh Eetemadi</p>
+                            <li>Artificial Intelligence</li>
+                            <p>- Instructors: Dr. Sauleh Eetemadi and Dr. mohammad taher pilehvar</p>
+                            
+                        </ul>
+                    </div>
                     
-                </ul>
+                    <div class="exp_obj">
+                        <h4>Academic Experience</h4>
+                        <hr>
+                        <ul class='exp_li'>
+                            <li>NLP Researcher at NLP Lab</li>
+                            <p>- Under supervision of Dr. Sauler Etemadi</p>
+                            <p>- 
+                        </ul>
+                    </div>
+                </div>
             </div>
-            
-            <div class="exp_obj">
-                <h4>Academic Experience</h4>
-                <hr>
-                <ul class='exp_li'>
-                    <li>NLP Researcher at NLP Lab</li>
-                    <p>- Under supervision of Dr. Sauler Etemadi</p>
-                    <p>- 
-                </ul>
+            <div id="lifestyle" class="lifestyle">
+                <h1>LifeStyle</h1>
+                <p>I enjoy figure outing new things. I usually read a book. Exersice is a part of my life. i prefer climbing and swimming.
+                 I usually think about success and hard work untill my dreams become true.</p>
             </div>
-
         </div>
     </div>
 
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
 </body>
 
 <footer>
-    <h1>Contact</h1>
-    <br/>
-    <br/>
     <pre class="footer-text">
     If you willing to send me a massage here is my email address: <a href="mailto:mahsa.ghaderan@gmail.com">mahsa.ghaderan@gmail.com</a>
-    My CV is available <a href="#">here</a>.
-    And finally these are my social media you can find me there too.
-    </pre>
-    <div class="social-media">
-        <div class="img__wrap">
-            <img class="social-media-icon" src="./static/facebook1.png" alt="facebook">
-            <pre class="img__description"> Facebook</pre>
-        </div>
-        <div class="img__wrap">
-            <img class="social-media-icon" src="./static/instagram1.png">
-            <pre class="img__description">Instagram</pre>
-        </div>
-        <div class="img__wrap">
-            <img class="social-media-icon" src="./static/whatsapp1.png">
-            <pre class="img__description"> Whatsapp</pre>
-        </div>
-        <div class="img__wrap">
-            <img class="social-media-icon" src="./static/twitter1.png">
-            <pre class="img__description"> Twitter</pre>
-        </div>
-    </div>
+    My CV is available <a href="#">here</a></pre>
+    
 </footer>
 </html>
