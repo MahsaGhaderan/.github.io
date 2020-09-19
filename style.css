@@ -10,7 +10,8 @@ html{
     font-family: sans-serif;
     font-size: 16px;
 }
-body{
+*{
+    font-family: sans-serif;
     font-size: 16px;
 }
 
@@ -41,7 +42,7 @@ h1{
     color: #00437c;
     text-align: left;
     font-weight: bold;
-    padding-bottom: 0px;
+    padding-top: 0px;
 }
 
 h4{
@@ -96,6 +97,7 @@ h4{
 
 .about{
     padding: 20px; 
+    padding-bottom: 0px;
     top: 70px;
     color: #006064;
 }
@@ -131,9 +133,9 @@ h4{
     padding-top: 0px;
     color: #250014;
     font-size: 18px;
-    display: flex;
-    justify-content: center;
     letter-spacing: 1.3px;
+    text-indent: 40px;
+    text-align: justify;
 }
 
 .about_img{
@@ -144,6 +146,7 @@ h4{
 
 .experiments{
     padding: 30px;
+    padding-bottom: 0px;
 }
 
 .exp_content{
@@ -176,4 +179,14 @@ hr{
     font-weight: 100;
     font-size: 14px;
     color: #880e4f;
+}
+
+.footer_email{
+    color: inherit;
+    text-decoration: underline;
+}
+
+.lifestyle{
+    padding: 30px;
+    padding-bottom: 0px;
 }
