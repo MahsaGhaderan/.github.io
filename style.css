@@ -8,11 +8,10 @@
 }
 html{
     font-family: sans-serif;
-    font-size: 16px;
 }
 *{
     font-family: sans-serif;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .body-content{
@@ -29,7 +28,6 @@ nav{
     position: relative;
     left: 25%;
     padding-left: 5%;
-    font-size: 16px;
 }
 
 footer{
@@ -58,7 +56,7 @@ h4{
 }
 .header-navlink:hover{
     color: #dce6ea ;
-    font-size: 17px;
+    font-size: 19px;
     font-weight: 800;
 }
 .bi{
@@ -92,7 +90,6 @@ h4{
     font-family: sans-serif;
     text-align: center;
     color: #dce6ea;
-    font-size: 16px;
 }
 
 .about{
@@ -100,6 +97,7 @@ h4{
     padding-bottom: 0px;
     top: 70px;
     color: #006064;
+    width: 90%;
 }
 
 .flex{
@@ -132,8 +130,7 @@ h4{
     padding-left: 5px;
     padding-top: 0px;
     color: #250014;
-    font-size: 18px;
-    letter-spacing: 1.3px;
+    font-size: 20px;
     text-indent: 40px;
     text-align: justify;
 }
@@ -147,6 +144,7 @@ h4{
 .experiments{
     padding: 30px;
     padding-bottom: 0px;
+    width: 90%;
 }
 
 .exp_content{
@@ -156,7 +154,7 @@ h4{
 .exp_obj{
     margin-top: 30px;
     margin-bottom: 30px;
-    width: 30%;
+    width: 33%;
     padding: 15px;
     padding-top: 0px; 
     border: solid 1px;
@@ -172,13 +170,13 @@ hr{
 .exp_li{
     color: #250014;
     font-weight: 800;
-    letter-spacing: 1.2px;
 }
 
 .exp_li p{
     font-weight: 100;
-    font-size: 14px;
-    color: #880e4f;
+    font-size: 16px;
+    color: #3b2430;
+
 }
 
 .footer_email{
@@ -189,4 +187,38 @@ hr{
 .lifestyle{
     padding: 30px;
     padding-bottom: 0px;
+    width: 90%;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  th, td {
+    padding: 5px;
+    text-align: left;    
+  }
+table td{
+    color: #3b2430;
+    /* background-color: #fff1f9; */
+}
+
+.projects{
+    padding: 30px;
+    padding-bottom: 0px;
+    width: 90%;
+}
+
+.projects th{
+    text-align: center;
+    color: #250014;
+    border: 2px solid black;
+}
+
+.high{
+    border-bottom: 3px solid black;
+}
+
+.last{
+    border-right: 3px solid black;
 }
